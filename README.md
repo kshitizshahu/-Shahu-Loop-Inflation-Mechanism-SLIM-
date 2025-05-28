@@ -86,88 +86,80 @@ This document explains the symbols and terms used in the SLIM inflation model eq
 
 ---
 
-### Scale Factor: \( a(t) \)
-- **Meaning:** Relative size of the universe at time \( t \).
+### Scale Factor: a(t)
+- **Meaning:** Relative size of the universe at time t.
 - **Role:** Tracks cosmic expansion.
 - **Equation:**  
-  \[
-  a(t) \propto e^{H_{\text{SLIM}} t}
-  \]
+  `a(t) ∝ exp(H_SLIM * t)`
 
 ---
 
-### Expansion Rate: \( H_{\text{SLIM}} \)
+### Expansion Rate: H_SLIM
 - **Meaning:** The Hubble-like parameter in SLIM, indicating the expansion speed.
 - **Role:** Determines how fast the universe inflates due to entropy.
 - **Equation:**  
-  \[
-  H_{\text{SLIM}} = \sqrt{\frac{8 \pi G}{3} \rho_{\text{entropic}}}
-  \]
+  `H_SLIM = sqrt((8 * pi * G / 3) * rho_entropic)`
 
 ---
 
-### Gravitational Constant: \( G \)
+### Gravitational Constant: G
 - **Meaning:** Newton's gravitational constant, fundamental in gravity equations.
-- **Value:** Approximately \( 6.674 \times 10^{-11} \, \text{m}^3\,\text{kg}^{-1}\,\text{s}^{-2} \).
+- **Value:** Approximately 6.674 × 10^(-11) m³·kg⁻¹·s⁻².
 
 ---
 
-### Entropic Energy Density: \( \rho_{\text{entropic}} \)
+### Entropic Energy Density: rho_entropic
 - **Meaning:** Effective energy density from entropy transfer.
 - **Role:** Drives expansion in SLIM, replacing the inflaton field energy density.
 - **Equation:**  
-  \[
-  \rho_{\text{entropic}} \sim \frac{\Delta S_{\text{bridge}}}{V}
-  \]
+  `rho_entropic ≈ ΔS_bridge / V`
 
 ---
 
-### Entropy Gradient: \( \Delta S_{\text{bridge}} \)
+### Entropy Gradient: ΔS_bridge
 - **Meaning:** Entropy transferred through the cosmic bridge from the previous universe.
 - **Role:** Acts like compressed energy “spring,” causing inflation upon release.
 
 ---
 
-### Initial Volume: \( V \)
+### Initial Volume: V
 - **Meaning:** The volume of the newborn universe's vacuum.
 - **Role:** Smaller volumes mean higher entropic energy density, causing faster inflation.
 
 ---
 
-### Temperature: \( T \)
+### Temperature: T
 - **Meaning:** Effective temperature of the early quantum vacuum.
 - **Role:** Relates entropy to energy release.
 - **Used In:**  
-  \[
-  E_{\text{inflation}} \approx \Delta S \cdot T
-  \]
+  `E_inflation ≈ ΔS * T`
 
 ---
 
-### Inflation Energy: \( E_{\text{inflation}} \)
+### Inflation Energy: E_inflation
 - **Meaning:** Total thermodynamic energy released during inflation.
 - **Role:** Energy that powers the rapid expansion.
 - **Equation:**  
-  \[
-  E_{\text{inflation}} \approx \Delta S \cdot T
-  \]
+  `E_inflation ≈ ΔS * T`
 
 ---
 
 ### Summary Table
 
-| Symbol                 | Meaning                                 |
-|------------------------|-----------------------------------------|
-| \( a(t) \)             | Scale factor (size of the universe)    |
-| \( H_{\text{SLIM}} \)  | Entropic expansion rate (Hubble-like)  |
-| \( G \)                | Newton’s gravitational constant         |
-| \( \rho_{\text{entropic}} \) | Energy density from entropy         |
-| \( \Delta S_{\text{bridge}} \) | Entropy transferred via bridge     |
-| \( V \)                | Initial volume of newborn vacuum        |
-| \( T \)                | Effective vacuum temperature             |
-| \( E_{\text{inflation}} \) | Thermodynamic energy driving inflation |
+| Symbol           | Meaning                               |
+|------------------|-------------------------------------|
+| a(t)             | Scale factor (size of the universe) |
+| H_SLIM           | Entropic expansion rate (Hubble-like) |
+| G                | Newton’s gravitational constant     |
+| rho_entropic     | Energy density from entropy          |
+| ΔS_bridge        | Entropy transferred via bridge       |
+| V                | Initial volume of newborn vacuum     |
+| T                | Effective vacuum temperature          |
+| E_inflation      | Thermodynamic energy driving inflation|
 
 ---
+
+
 
 
 ## 🔹 5. Differences from Standard Inflation
