@@ -143,25 +143,6 @@ This document explains the symbols and terms used in the SLIM inflation model eq
   `E_inflation ≈ ΔS * T`
 
 ---
-
-### Summary Table
-
-| Symbol           | Meaning                               |
-|------------------|-------------------------------------|
-| a(t)             | Scale factor (size of the universe) |
-| H_SLIM           | Entropic expansion rate (Hubble-like) |
-| G                | Newton’s gravitational constant     |
-| rho_entropic     | Energy density from entropy          |
-| ΔS_bridge        | Entropy transferred via bridge       |
-| V                | Initial volume of newborn vacuum     |
-| T                | Effective vacuum temperature          |
-| E_inflation      | Thermodynamic energy driving inflation|
-
----
-
-
-
-
 ## 🔹 5. Differences from Standard Inflation
 
 | Feature     | Standard Inflation  | SLIM (Shahu Loop)                    |
