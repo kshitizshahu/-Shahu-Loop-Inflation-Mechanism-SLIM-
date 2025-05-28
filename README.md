@@ -80,108 +80,95 @@ $$
 
 > This links expansion rate $H$ to entropy change, not just energy density
 ---
+# SLIM Inflation Model — Symbols and Their Meanings
 
-## 🧮 SLIM Inflation Equation Terms — Explained
+This document explains the symbols and terms used in the SLIM inflation model equations.
 
 ---
 
-### 🔹 **1. Scale Factor – $a(t)$**
-
-* **Meaning**: Represents the relative size of the universe at time $t$.
-* **In SLIM**: Tracks how the universe expands due to the entropic rebound.
-* **Equation**:
-
-  $$
+### Scale Factor: \( a(t) \)
+- **Meaning:** Relative size of the universe at time \( t \).
+- **Role:** Tracks cosmic expansion.
+- **Equation:**  
+  \[
   a(t) \propto e^{H_{\text{SLIM}} t}
-  $$
+  \]
 
 ---
 
-### 🔹 **2. Expansion Rate – $H_{\text{SLIM}}$**
-
-* **Meaning**: The Hubble-like parameter in the SLIM model.
-* **In SLIM**: Measures how quickly space is expanding due to entropic energy.
-* **Equation**:
-
-  $$
-  H_{\text{SLIM}} = \sqrt{\frac{8\pi G}{3} \cdot \rho_{\text{entropic}}}
-  $$
+### Expansion Rate: \( H_{\text{SLIM}} \)
+- **Meaning:** The Hubble-like parameter in SLIM, indicating the expansion speed.
+- **Role:** Determines how fast the universe inflates due to entropy.
+- **Equation:**  
+  \[
+  H_{\text{SLIM}} = \sqrt{\frac{8 \pi G}{3} \rho_{\text{entropic}}}
+  \]
 
 ---
 
-### 🔹 **3. Gravitational Constant – $G$**
-
-* **Meaning**: A universal constant that appears in Einstein’s equations.
-* **Value**: Approximately $6.674 \times 10^{-11} \, \text{m}^3/\text{kg}/\text{s}^2$
-* **In SLIM**: Governs how entropy density translates into expansion via gravity.
+### Gravitational Constant: \( G \)
+- **Meaning:** Newton's gravitational constant, fundamental in gravity equations.
+- **Value:** Approximately \( 6.674 \times 10^{-11} \, \text{m}^3\,\text{kg}^{-1}\,\text{s}^{-2} \).
 
 ---
 
-### 🔹 **4. Entropic Energy Density – $\rho_{\text{entropic}}$**
-
-* **Meaning**: The effective energy density derived from entropy transfer.
-* **In SLIM**: It is the key driver of inflation — not matter or radiation, but inherited entropy.
-* **Equation**:
-
-  $$
+### Entropic Energy Density: \( \rho_{\text{entropic}} \)
+- **Meaning:** Effective energy density from entropy transfer.
+- **Role:** Drives expansion in SLIM, replacing the inflaton field energy density.
+- **Equation:**  
+  \[
   \rho_{\text{entropic}} \sim \frac{\Delta S_{\text{bridge}}}{V}
-  $$
+  \]
 
 ---
 
-### 🔹 **5. Entropy Gradient – $\Delta S_{\text{bridge}}$**
-
-* **Meaning**: The amount of entropy transferred from the previous universe into the new one.
-* **In SLIM**: Originates from the collapse of the old universe (e.g., via black holes or singular states).
-* **Role**: Acts like a compressed “spring” — when released, it drives cosmic expansion.
+### Entropy Gradient: \( \Delta S_{\text{bridge}} \)
+- **Meaning:** Entropy transferred through the cosmic bridge from the previous universe.
+- **Role:** Acts like compressed energy “spring,” causing inflation upon release.
 
 ---
 
-### 🔹 **6. Initial Volume – $V$**
-
-* **Meaning**: The effective volume of the newborn universe (i.e., early vacuum state).
-* **In SLIM**: Smaller $V$ leads to higher entropic energy density — triggering faster inflation.
+### Initial Volume: \( V \)
+- **Meaning:** The volume of the newborn universe's vacuum.
+- **Role:** Smaller volumes mean higher entropic energy density, causing faster inflation.
 
 ---
 
-### 🔹 **7. Temperature – $T$**
-
-* **Meaning**: Effective quantum temperature of the new vacuum.
-* **Used in**:
-
-  $$
+### Temperature: \( T \)
+- **Meaning:** Effective temperature of the early quantum vacuum.
+- **Role:** Relates entropy to energy release.
+- **Used In:**  
+  \[
   E_{\text{inflation}} \approx \Delta S \cdot T
-  $$
-* **Role**: Determines how much energy is released from the entropy difference.
+  \]
 
 ---
 
-### 🔹 **8. Inflation Energy – $E_{\text{inflation}}$**
-
-* **Meaning**: The total thermodynamic energy released during inflation.
-* **In SLIM**: Not caused by a scalar field, but by entropy imbalance.
-* **Equation**:
-
-  $$
+### Inflation Energy: \( E_{\text{inflation}} \)
+- **Meaning:** Total thermodynamic energy released during inflation.
+- **Role:** Energy that powers the rapid expansion.
+- **Equation:**  
+  \[
   E_{\text{inflation}} \approx \Delta S \cdot T
-  $$
+  \]
 
 ---
 
-## 📌 Summary (One-Liner for Each Term)
+### Summary Table
 
-| Symbol                     | Meaning                                         |
-| -------------------------- | ----------------------------------------------- |
-| $a(t)$                     | Scale factor – size of the universe at time $t$ |
-| $H_{\text{SLIM}}$          | Expansion rate driven by entropic energy        |
-| $G$                        | Newton’s gravitational constant                 |
-| $\rho_{\text{entropic}}$   | Energy density from inherited entropy           |
-| $\Delta S_{\text{bridge}}$ | Entropy transferred from prior universe         |
-| $V$                        | Initial vacuum volume of the newborn universe   |
-| $T$                        | Quantum temperature of the early vacuum         |
-| $E_{\text{inflation}}$     | Thermodynamic energy driving inflation          |
+| Symbol                 | Meaning                                 |
+|------------------------|-----------------------------------------|
+| \( a(t) \)             | Scale factor (size of the universe)    |
+| \( H_{\text{SLIM}} \)  | Entropic expansion rate (Hubble-like)  |
+| \( G \)                | Newton’s gravitational constant         |
+| \( \rho_{\text{entropic}} \) | Energy density from entropy         |
+| \( \Delta S_{\text{bridge}} \) | Entropy transferred via bridge     |
+| \( V \)                | Initial volume of newborn vacuum        |
+| \( T \)                | Effective vacuum temperature             |
+| \( E_{\text{inflation}} \) | Thermodynamic energy driving inflation |
 
 ---
+
 
 ## 🔹 5. Differences from Standard Inflation
 
