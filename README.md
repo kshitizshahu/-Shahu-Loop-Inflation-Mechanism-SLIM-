@@ -79,8 +79,6 @@ $$
 $$
 
 > This links expansion rate $H$ to entropy change, not just energy density
-> Absolutely! Here's a clear and concise **explanation of each term** used in the SLIM inflation model, ideal for your GitHub `README.md` or a dedicated `equations.md` file under a `/docs` or `/notes` folder:
-
 ---
 
 ## 🧮 SLIM Inflation Equation Terms — Explained
